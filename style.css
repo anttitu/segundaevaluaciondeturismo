@@ -1,0 +1,81 @@
+.inicio{
+    background: #4740da;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.titulo{
+    color: #614BC3;
+    background: #85E6C5;
+    padding: auto;
+    margin: auto;
+}
+.menu-comienzo{
+    background: #C8FFE0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    color: black;
+    color: #614BC3;
+    background: #85E6C5;
+    padding: auto;
+    margin: auto;
+}
+nav{
+    background: #85E6C5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-final{
+    background: #614BC3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.lugar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 600px){
+    .menu-comienzo{
+      background: #279EFF;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .boton_navtel{
+     display: inline-block;
+    }
+ }
+ .contactos{
+    background: #4740da;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+ .exp-cost{
+    background: #C8FFE0;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+ }
+ h1{
+    color: #4740da;
+    background-color: salmon;
+    margin: 20px;
+    padding: 10px;
+ }
+ .boton_navtel{
+    background: #1cf404;
+    color: rgb(4, 49, 252);
+    padding: 10px 0;
+    border: 2px solid #4c11c2;
+    display: none;
+}
